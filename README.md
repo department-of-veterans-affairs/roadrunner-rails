@@ -1,54 +1,44 @@
-# Roadrunner Rails
-[![Build Status](https://travis-ci.org/department-of-veterans-affairs/roadrunner-rails.svg?branch=master)](https://travis-ci.org/department-of-veterans-affairs/roadrunner-rails)
+# Roadrunner Rails [![Build Status](https://travis-ci.org/department-of-veterans-affairs/roadrunner-rails.svg?branch=master)](https://travis-ci.org/department-of-veterans-affairs/roadrunner-rails)
 
-Roadrunner Rails is a template for new Rails projects for the VA. It's pre-customized to work within the VA ecosystem.
+This is a template project for getting started with a Rails project within the US Department of Veterans Affairs. It includes common dependencies such as test frameworks, security scanners, code style linters, and frontend styling/frameworks.
 
-```                               
-      qWWWgaap                    
-]W#########WW##Z##LaQbp           
-   ]"?!??QW#ZZ#######m#b          
-       )Wm####Z####Z###b          
-                )????mm###a
-                       ]####? p
-                       y?Y?Y(   p
-                       w####ZcL]T___$
-                         ^<iQrcZZZr-'
-                          :klf
-p                          ]i                                    _
-3p                         ]lp               _ __ ___   __ _  __| |_ __ _   _ _ __  _ __   ___ _ __
-llLp                       ]If       ------ | '__/ _ \ / _` |/ _` | '__| | | | '_ \| '_ \ / _ \ '__|
-zIl3q.                     ]If   __________ | | | (_) | (_| | (_| | |  | |_| | | | | | | |  __/ |
-"gwzI3q                    kd          ____ |_|  \___/ \__,_|\__,_|_|   \__,_|_| |_|_| |_|\___|_|
-   )?^y3qp               qJIf                                                     _ __ __ _(_) |___
-      J4wwLagagagWWWWWhwilld                                     ______________  | '__/ _` | | / __|
-         ?!4m#m####ZZ#Zmlllf               p           ------------------------  | | | (_| | | \__ \
-      gKX@CiillTYXmDYYTlllmp         aggQ"4XXLga               ________________  |_|  \__,_|_|_|___/
-    aGZF????????    )?4@illf   aggJQ"!'=jg#?':?"4#Lgga
-  aAq"'.                "wuRXXXm!?     ]X#Xp      J!mX#XZZXUa
-aAm?                     )!"!'.         !pXP           !XXZXXQ
-r'                                                      )4XXWW
-.
-```
+To start a new project:
 
-## Commands
+1. [Download this repository](https://github.com/department-of-veterans-affairs/roadrunner-rails/archive/master.zip)
+1. Unzip the file
+1. Rename the folder to be your project name
+1. Edit README.md (this file) by:
+  - Deleting everything above **Application Name**
+  - Adding your application name
+  - Adding a description of what your project does
+  - Editing **How to Contribute** section
+  - Editing **Contact** section
+1. Create and commit your project to a new GitHub repository
+1. Enable protected branches for the `master` branch on your new GitHub repository
+1. Go to [Travis CI](http://travis.org) and enable your project to run builds on pushes and pull requests.
+
+# Application Name
+
+Description of your what your project does.
+
+## Developer Setup
+
+(TODO: Add stock developer setup instructions in a future PR)
+
+## Code Quality Commands
 - `rake lint` - Run the full suite of linters on the codebase.
 - `bundle exec guard` - Runs the guard test server that reruns your tests after files are saved. Useful for TDD!
 - `rake security` - Run the suite of security scanners on the codebase.
 - `rake ci` - Run all build steps performed in Travis CI.
 
-## Gems
-Roadrunner Rails adds some additional gems for making Rails development better.
+## Deployment Instructions
 
-### Testing
-- [RSpec](https://github.com/rspec/rspec) - Ruby testing framework for readable BDD tests.
-- [RSpec Rails](https://github.com/rspec/rspec-rails) - Rails helpers for rSpec.
-- [Guard](https://github.com/guard/guard) - Testing server for better TDD flow.
+(TODO: Add stock deployment setup instructions in a future PR)
 
-### Linting
-- [Rubocop](https://github.com/bbatsov/rubocop) for Ruby style linting.
-- [scss-lint](https://github.com/brigade/scss-lint) configured with [18F's CSS coding styleguide](https://pages.18f.gov/frontend/css-coding-styleguide/).
-- [jshint](https://github.com/damian/jshint) for Javascript.
+## How to Contribute
 
-### Security
-- [Breakman](https://github.com/presidentbeef/brakeman) for Rails static code analysis for secuirty vulnerabilities
-- [bundler-audit](https://github.com/rubysec/bundler-audit) for checking known security vunerabilities of gems.
+How do people (internal, external, both) contribute to your project? Do they use something like [GitHub Flow](https://guides.github.com/introduction/flow/)? How do people submit bugs? Where does news about the project get released?
+
+## Contact
+
+How can folks contact you (the maintainers of the project). GitHub Handles, Email, etc?

@@ -1,5 +1,25 @@
 source 'https://rubygems.org'
 
+=begin
+--- Deployment ---
+- Puma (http://puma.io/) - App server that handles 40+ concurrent users efficiently
+                         - (Decision: https://github.com/18F/college-choice/issues/597#issuecomment-139034834)
+
+--- Testing ---
+- RSpec (https://github.com/rspec/rspec) - Ruby testing framework for readable BDD tests.
+- RSpec Rails (https://github.com/rspec/rspec-rails) - Rails helpers for rSpec.
+- Guard (https://github.com/guard/guard) - Testing server for better TDD flow.
+
+--- Linting ---
+- Rubocop (https://github.com/bbatsov/rubocop) for Ruby style linting.
+- scss-lint (https://github.com/brigade/scss-lint) configured with [18F's CSS coding styleguide](https://pages.18f.gov/frontend/css-coding-styleguide/).
+- jshint (https://github.com/damian/jshint) for Javascript.
+
+--- Security ---
+- Brakeman (https://github.com/presidentbeef/brakeman) for Rails static code analysis for secuirty vulnerabilities
+- bundler-audit (https://github.com/rubysec/bundler-audit) for checking known security vunerabilities of gems.
+=end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
 # Use sqlite3 as the database for Active Record
