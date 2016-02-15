@@ -29,7 +29,29 @@ var config = {
   },
 
   resolve: {
-    root: path.join(__dirname, '..', 'webpack')
+    root: path.join(__dirname, '..', 'webpack'),
+    jquery: "jquery/src/jquery"
+  },
+
+  module: {
+    loaders: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel',
+        query: {
+          // es2015 is current name for the es6 settings.
+          presets: ['es2015'],
+
+          // Share polyfills between files.
+          // TODO(awong): This is erroring out. Enable later.
+//          plugins: ['transform-runtime'],
+
+          // Speed up compilation.
+          cacheDirectory: true
+        }
+      }
+    ]
   },
 
   plugins: [
@@ -64,7 +86,7 @@ if (production) {
   };
   config.output.publicPath = '//localhost:' + devServerPort + '/webpack/';
   // Source maps
-  config.devtool = 'cheap-module-eval-source-map';
+  config.devtool = '#source-map';
 }
 
 module.exports = config;

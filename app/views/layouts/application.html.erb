@@ -3,7 +3,7 @@
 <head>
   <title>RoadrunnerRails</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
+  <%= javascript_include_tag *(webpack_asset_paths("application").reject{|asset| asset.ends_with?(".map") }) %>
   <%= csrf_meta_tags %>
 </head>
 <body>
