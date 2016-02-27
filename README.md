@@ -101,5 +101,5 @@ Roadrunner Rails adds some additional gems for making Rails development better.
 - [jshint](https://github.com/damian/jshint) for Javascript.
 
 ### Security
-- [Breakman](https://github.com/presidentbeef/brakeman) for Rails static code analysis for secuirty vulnerabilities
+- [Brakeman](https://github.com/presidentbeef/brakeman) for Rails static code analysis for security vulnerabilities
 - [bundler-audit](https://github.com/rubysec/bundler-audit) for checking known security vunerabilities of gems.
