@@ -20,3 +20,8 @@
 
 # Ignore precompiled assets
 public/assets/**
+
+# common editor files
+.idea/*
+.DS_Store
+.swp
