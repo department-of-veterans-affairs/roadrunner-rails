@@ -32,8 +32,8 @@ r'                                                      )4XXWW
 
 ## Ruby Setup
 
-In order to use Roadrunner Rails, you'll need Ruby installed, and rbenv to manage your Ruby versions.
-Follow the instructions to [install rbenv](https://github.com/rbenv/rbenv#installation) and then to [install Ruby 2.3](https://github.com/rbenv/rbenv#installing-ruby-versions).
+In order to use Roadrunner Rails, you'll need Ruby installed, and `rbenv` to manage your Ruby versions.
+Follow the instructions to [install `rbenv`](https://github.com/rbenv/rbenv#installation) and then to [install Ruby 2.3](https://github.com/rbenv/rbenv#installing-ruby-versions).
 
 ## Other Dependencies
 
@@ -45,7 +45,7 @@ You'll need to install the following other applications and libraries.
 ## Creating a New Roadrunner Project
 
 First, clone the `roadrunner-rails` repository into a new folder with your project name.
-Seperate words in the folder name using hyphens (example: `my-new-project`).
+Separate words in the folder name using hyphens (example: `my-new-project`).
 
 ```
 $ git clone https://github.com/department-of-veterans-affairs/roadrunner-rails my-new-project
@@ -90,5 +90,5 @@ Roadrunner Rails adds some additional gems for making Rails development better.
 - [jshint](https://github.com/damian/jshint) for Javascript.
 
 ### Security
-- [Brakeman](https://github.com/presidentbeef/brakeman) for Rails static code analysis for secuirty vulnerabilities
-- [bundler-audit](https://github.com/rubysec/bundler-audit) for checking known security vunerabilities of gems.
+- [Brakeman](https://github.com/presidentbeef/brakeman) for Rails static code analysis for security vulnerabilities
+- [bundler-audit](https://github.com/rubysec/bundler-audit) for checking known security vulnerabilities of gems.
