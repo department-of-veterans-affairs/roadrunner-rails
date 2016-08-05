@@ -1,12 +1,11 @@
 GIT
   remote: https://github.com/department-of-veterans-affairs/sniffybara.git
-  revision: d621881a2ef8311434d9cdcea5519026f9182981
+  revision: e355cfde5ae039601b3f273fe07c1b36a129c4c6
   specs:
     sniffybara (0.0.1)
       poltergeist
       rainbow
       selenium-webdriver
-      sinatra
 
 GEM
   remote: https://rubygems.org/
@@ -229,8 +228,6 @@ GEM
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.0)
-    sinatra (1.0)
-      rack (>= 1.0)
     slop (3.6.0)
     spring (1.7.2)
     sprockets (3.7.0)
