@@ -1,5 +1,5 @@
 class RoadrunnersController < ApplicationController
   def index
-    render(text: "hey")
+    render(plain: "hey")
   end
 end
