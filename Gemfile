@@ -5,15 +5,8 @@ gem 'rails', '5.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', platforms: [:ruby,:mswin,:mingw, :mswin, :x64_mingw]
 gem 'activerecord-jdbcsqlite3-adapter', platforms: :jruby
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
-# Use jquery as the JavaScript library
-gem 'jquery-rails'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
@@ -37,8 +30,6 @@ group :development, :test do
 
   # Linters
   gem 'rubocop', '~> 0.36.0', require: false
-  gem 'scss_lint', require: false
-  gem 'jshint', platforms: :ruby
 
   # Security scanners
   gem 'brakeman'
