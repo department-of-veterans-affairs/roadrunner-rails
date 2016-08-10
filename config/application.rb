@@ -22,5 +22,7 @@ module RoadrunnerRails
     
     # Gzip files when possible
     config.middleware.use Rack::Deflater
+    # Turn on api mode
+    config.api_only = true
   end
 end
