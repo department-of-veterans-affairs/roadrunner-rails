@@ -123,6 +123,7 @@ GEM
     minitest (5.9.1)
     multi_json (1.12.1)
     nenv (0.3.0)
+    nio4r (2.5.8)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
     notiffany (0.1.1)
@@ -140,7 +141,8 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     public_suffix (2.0.4)
-    puma (2.16.0)
+    puma (5.6.2)
+      nio4r (~> 2.0)
     rack (1.6.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -273,7 +275,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   jshint
-  puma (~> 2.16.0)
+  puma (~> 5.6.2)
   rails (= 4.2.7.1)
   rainbow
   rspec
